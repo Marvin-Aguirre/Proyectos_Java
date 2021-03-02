@@ -104,12 +104,14 @@ public class Operaciones_Con_Cadenas {
                         }else{
                             System.out.println("Las cadenas no tienen el mismo tamaño");
                         }
-                        
-                        
                         break;
                     default:
+                        System.out.println("Opcion incorrecta");
                         break;
                 }
+                break;
+            default:
+                System.out.println("Opcion incorrecta");
                 break;
         }
         
