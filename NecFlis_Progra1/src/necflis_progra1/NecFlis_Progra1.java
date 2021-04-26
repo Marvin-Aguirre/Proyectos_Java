@@ -168,13 +168,13 @@ public class NecFlis_Progra1 {
 
                                             System.out.println("");
                                             System.out.println("Elija una pelicula: ");
-                                            int dap = Integer.parseInt(sc.nextLine());
-                                            if (dap == 0) {
+                                            int p = Integer.parseInt(sc.nextLine());
+                                            if (p == 0) {
                                                 break;
                                             } else {
-                                                System.out.println("Pos. " + (dap - 1) + " Nombre de la pelicula  " + nombrePeliculaArray.get(dap - 1) + " genero " + generoPeliculaArray.get(dap - 1) + " tipo " + tipoPeliculaArray.get(dap - 1) + " sinopsis " + sinopsisPeliculaArray.get(dap - 1));
+                                                System.out.println("Pos. " + (p - 1) + " Nombre de la pelicula  " + nombrePeliculaArray.get(p - 1) + " genero " + generoPeliculaArray.get(p - 1) + " tipo " + tipoPeliculaArray.get(p - 1) + " sinopsis " + sinopsisPeliculaArray.get(p - 1));
                                                 System.out.println("");
-                                                dato = dap;
+                                                dato = p;
                                             }
                                             break;
                                         case 3:
