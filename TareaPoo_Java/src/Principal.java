@@ -7,7 +7,7 @@ public class Principal {
         A.Modificar_Vida();
         
         Heroe H = new Heroe();
-        H.Nombre();
+        H.Nombre(); 
         H.Vida();
         H.Modificar_Vida();
         
